@@ -4,7 +4,7 @@ from Pages.caseStudiesPage import CaseStudiesPage
 
 
 @pytest.mark.usefixtures("init_driver")
-class TestPlatform:
+class TestCaseStudies:
 
     def test_companyLogo(self):
         caseStudyPage = CaseStudiesPage(self.driver)

@@ -4,7 +4,7 @@ from Pages.blogPage import BlogPage
 
 
 @pytest.mark.usefixtures("init_driver")
-class TestPlatform:
+class TestBlog:
 
     def test_companyLogo(self):
         blogPage = BlogPage(self.driver)
